@@ -3,8 +3,6 @@ layout: blog
 title: An animated guide to the human body &#58; The muscle edition
 buy: http://www.redbubble.com/people/eleanorlutz/works/12442316-a-users-guide-to-muscles?p=poster
 buytext: Get the poster
-webm: /img/posts/08-12-14.webm
-mp4: /img/posts/08-12-14.mov
 image: /img/posts/08-12-14.png
 animation: yes
 gif: /img/posts/08-12-14.gif
