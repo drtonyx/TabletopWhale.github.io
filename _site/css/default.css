@@ -142,10 +142,7 @@ body {
   	position: absolute;
   	bottom: 0px;
   	width: 100%;
-  	background-color: #29292a;
-	background-image: 		url(/img/patterndark.png);
-	background-repeat: repeat;
-	background-attachment: fixed;
+  	background-color: #262629;
 	text-align: left;
   	max-height:	250px;	
   	min-height: 250px;
@@ -158,9 +155,6 @@ body {
 	max-width: 900px;
   	background-color: #262629;
 	height: 100%;
-	background-image: 		url(/img/patterndark.png);
-	background-repeat: repeat;
-	background-attachment: fixed;
 	padding: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
