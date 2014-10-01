@@ -15,7 +15,7 @@ When I worked in an insect lab as an undergrad, I helped out with an experiment 
 
 It was a fun experiment, and I wanted to make something similar from Youtube videos. I found slow-motion videos of five flying species, and mapped out specific points on the wings during one wingbeat. I ended up with 15 frames per wingbeat, and I connected every frame using imaginary curves that went through all of the 15 mapped points. 
 
-Of course, 15 frames isn't nearly enough for any kind of factual conclusion, so this week's post is just an art exersize. But hopefully you can enjoy this as an artistic pattern based on real life :)
+Of course, 15 frames isn't nearly enough for any kind of factual conclusion, so this week's post is just an art exercise. But hopefully you can enjoy this as an artistic pattern based on real life :)
 
 P.S. My next post will be more grounded in fact, so don't worry if you weren't that into this art post.
 
