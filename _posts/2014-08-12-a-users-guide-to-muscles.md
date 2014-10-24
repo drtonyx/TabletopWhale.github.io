@@ -11,7 +11,7 @@ description: Going to the gym? Take this with you.
 
 I love GIFs as an art form, so this month I tried making an infographic GIF. It's a 25-frame stop motion animation made mostly in Photoshop.
 
-I've never made an animation this complex before, and I had a ton of fun with it. I'm definitely planning on more animated infographics in the future. I might even learn After Effects, though I'll have to see how feasable that is since my computer's getting kind of old and slow. 
+I've never made an animation this complex before, and I had a ton of fun with it. I'm definitely planning on more animated infographics in the future. I might even learn After Effects, though I'll have to see how feasible that is since my computer's getting kind of old and slow. 
 
 As always, critiques and comments are very welcome :)
 

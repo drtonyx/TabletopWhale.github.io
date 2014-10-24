@@ -2,7 +2,7 @@
 layout: blog
 title: Flight videos deconstructed
 buy: http://www.artsider.com/works/18639-flight-videos-deconstructed_prints
-buytext: See the poster version
+buytext: Get the poster
 image: /img/posts/08-29-14.png
 animation: yes
 gif: /img/posts/09-29-14.gif

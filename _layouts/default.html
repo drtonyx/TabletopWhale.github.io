@@ -86,10 +86,12 @@
 {% if post.image %}
   {% if post.animation %}
     <div class="container-blog-nomargin">
-      <figure class="container-blog-nomargin default_image_blog"><img src="{{ post.gif }}" /></figure>
+      <figure class="container-blog-nomargin default_image_blog">
+          <img src="{{ post.gif }}"  alt="post.title"/> 
+      </figure>
    </div>
   {% else %}
-      <figure class="container-blog-nomargin default_image_blog"><img src="{{ post.image }}" /></figure>
+      <figure class="container-blog-nomargin default_image_blog"><img src="{{ post.image }}"  alt="post.title"/></figure>
   {% endif %}
     <div class="container-blog bottom"> 
 {% else %}
