@@ -88,6 +88,12 @@
     <div class="container-blog-nomargin">
       <figure class="container-blog-nomargin default_image_blog">
           <img src="{{ post.gif }}"  alt="post.title"/> 
+          {% if post.gif2 %}
+          <img src="{{ post.gif2 }}"  alt="post.title"/> 
+          {% endif %}
+          {% if post.gif3 %}
+          <img src="{{ post.gif3 }}"  alt="post.title"/> 
+          {% endif %}
       </figure>
    </div>
   {% else %}
