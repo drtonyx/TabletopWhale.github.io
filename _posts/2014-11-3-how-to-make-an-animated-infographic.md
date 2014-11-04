@@ -10,7 +10,7 @@ gifcutoff: /img/posts/11-3-14-0.gif
 description: An animated infographic about making animated infographics! Whoa.  
 ---
 
-Recently I've been getting a lot of emails asking for a tutorial on how to make animations. I don't think I use any particularly unique techniques, but I put together a quick explanation for anyone who's interested. It's a really long tutorial, so head over to <a href="http://tabletopwhale.com/tutorial.html">this link</a> or click on the tutorial button in the website header to see the full version. 
+Recently I've been getting a lot of emails asking for a tutorial on how to make animations. So this week I put together a quick explanation for anyone who's interested. I archived it as a link on the menu bar of my website, so it'll always be easy to find if you need it. 
 
 This is just a run-through of my own personal animation workflow, so it's not a definitive guide or anything. There are plenty of other ways to make animations in Photoshop and other programs. 
 
