@@ -31,45 +31,7 @@
 <div class="margin-blogtop"></div>
 
 <div class="container-blog-outsidemargin">
-{% if page.image %}
-  <div class="container-blog"> 
-{% else %}
-  <div class="container-blog container-blog-noimage-top"> 
-{% endif %}
-        <h1>{{ page.title }}</h1>
-        {% if page.guest %}
-        <!-- date & link to guest author -->
-            {% if page.guestlink %}
-                <div class="date"> 
-                  <time> {{page.date | date: "%B %-d %Y "}} </time> 
-                  &middot; 
-                  <a href="{{post.guestlink}}">
-                    {{page.guest}} 
-                  </a>
-                </div>
-            {% else %}
-              <div class="date"> 
-                <time> {{page.date | date: "%B %-d %Y "}} </time> 
-                &middot; 
-                <em class="archive-text"> {{page.guest}} </em>
-              </div> 
-            {% endif %}
-        {% else %}
-          <div class="date"> <time> {{page.date | date: "%B %-d %Y" }} </time> </div>
-        {% endif %}
-        <hr>
-        {% if page.columns %}
-        <!-- default is 2 column post -->
-        <!-- any value in page.columns turns blog into 1 column post -->
-        <div class="container-blog-nocolumns">
-          {{ content | remove : 'Read more <i class="fa fa-angle-double-right"></i>' }}
-        </div>
-        {% else %}
-        <div class="container-blog-columns">
-          {{ content | remove : 'Read more <i class="fa fa-angle-double-right"></i>' }}
-        </div>
-        {% endif %}
-  </div>
+</div>
 {% if page.image %}
   {% if page.animation %}
     <div class="container-blog-nomargin">

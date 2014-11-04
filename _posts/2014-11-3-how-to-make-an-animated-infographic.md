@@ -1,15 +1,16 @@
 ---
 layout: blog
-title: Tabletop Whale's quick guide to making GIFs
+title: Tabletop Whale's guide to making GIFs
+buy: http://tabletopwhale.com/tutorial.html
+buytext: Leave a comment
 image: /img/posts/11-3-14.png
 animation: yes
-gif: /img/posts/11-3-14-1.gif
-gif2: /img/posts/11-3-14-2.gif
-gif3: /img/posts/11-3-14-3.gif
+comments: yes
+gif: /img/posts/11-3-14-0.gif
 description: An animated infographic about making animated infographics! Whoa.  
 ---
 
-Recently I've been getting a lot of emails asking for a tutorial on how to make animations. I don't think I use any particularly unique techniques, but I put together a quick explanation for anyone who's interested. 
+Recently I've been getting a lot of emails asking for a tutorial on how to make animations. I don't think I use any particularly unique techniques, but I put together a quick explanation for anyone who's interested. It's a really long tutorial, so head over to <a href="http://tabletopwhale.com/tutorial.html">this link</a> or click on the tutorial button in the website header to see the full version. 
 
 This is just a run-through of my own personal animation workflow, so it's not a definitive guide or anything. There are plenty of other ways to make animations in Photoshop and other programs. 
 
