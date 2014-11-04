@@ -1,12 +1,12 @@
 ---
 layout: blog
 title: Tabletop Whale's guide to making GIFs
-buy: http://tabletopwhale.com/tutorial.html
-buytext: Leave a comment
 image: /img/posts/11-3-14.png
 animation: yes
-comments: yes
-gif: /img/posts/11-3-14-0.gif
+gif: /img/posts/11-3-14-1.gif
+gif2: /img/posts/11-3-14-2.gif
+gif3: /img/posts/11-3-14-3.gif
+gifcutoff: /img/posts/11-3-14-0.gif
 description: An animated infographic about making animated infographics! Whoa.  
 ---
 

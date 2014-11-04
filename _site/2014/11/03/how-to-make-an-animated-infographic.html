@@ -37,7 +37,7 @@
 <meta name="twitter:creator" content="@eleanor_lutz" />
 
 
-<meta name="twitter:image" content="/img/posts/11-3-14-0.gif" />
+<meta name="twitter:image" content="/img/posts/11-3-14-1.gif" />
 
 </head>
 
@@ -91,8 +91,12 @@
   
     <div class="container-blog-nomargin">
       <figure class="container-blog-nomargin default_image_blog">
-        <img src="/img/posts/11-3-14-0.gif" alt="page.title"/> 
+        <img src="/img/posts/11-3-14-1.gif" alt="page.title"/> 
           
+          <img src="/img/posts/11-3-14-2.gif"  alt="page.title"/> 
+          
+          
+          <img src="/img/posts/11-3-14-3.gif"  alt="post.title"/> 
           
      </figure>
     </div> 
@@ -113,12 +117,6 @@
 
         <!-- custom button specs -->
          
-            <a href="http://tabletopwhale.com/tutorial.html">
-              <div class="button btn-ignore-600 btn-white" target="_blank"> 
-                Leave a comment 
-              </div>
-            </a>
-          
 
           
         <!-- share on fb and twitter -->
@@ -139,6 +137,44 @@
        </div>
 
     <div class="margin-normal"><div class="button transparent"></div></div>
+        
+        <!-- Disqus comments -->
+          <div id="disqus_thread" ></div>
+          <script type="text/javascript">
+            var disqus_shortname = 'tabletopwhale'; 
+              (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+          </noscript>
+          <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          
+        <!-- reload on orientation change for mobile -->
+        <!-- only here because Disqus doesn't automatically resize. take script out if Disqus is updated -->
+          <script type="text/javascript">
+            var reset_disqus = function(){
+              DISQUS.reset({
+                reload: true,
+                config: function () {  
+                  this.page.identifier = '/2014/11/03/how-to-make-an-animated-infographic.html';
+                  this.page.url = 'https://tabletopwhale.com/2014/11/03/how-to-make-an-animated-infographic.html';
+                  this.page.title = "Tabletop Whale's guide to making GIFs";
+                }
+              });
+            };
+            var disqus_shortname = 'tabletopwhale';
+            var disqus_identifier = '/2014/11/03/how-to-make-an-animated-infographic.html';
+            var disqus_title = 'Tabletop Whale's guide to making GIFs';
+            var disqus_url = 'https://tabletopwhale.com/2014/11/03/how-to-make-an-animated-infographic.html';
+            (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+            window.onorientationchange = function() { reset_disqus(); };
+          </script>
         
 
         <p class="copyright-notice">

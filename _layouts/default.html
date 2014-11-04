@@ -88,12 +88,10 @@
   {% if post.animation %}
     <div class="container-blog-nomargin">
       <figure class="container-blog-nomargin default_image_blog">
+          {% if post.gifcutoff %}
+          <img src="{{ post.gifcutoff }}"  alt="post.title"/> 
+          {% else %}
           <img src="{{ post.gif }}"  alt="post.title"/> 
-          {% if post.gif2 %}
-          <img src="{{ post.gif2 }}"  alt="post.title"/> 
-          {% endif %}
-          {% if post.gif3 %}
-          <img src="{{ post.gif3 }}"  alt="post.title"/> 
           {% endif %}
       </figure>
    </div>
