@@ -32,10 +32,19 @@
 
 <div class="container-blog-outsidemargin">
 {% if page.image %}
-  <div class="container-blog"> 
+   {% if page.minipost %}
+      <div class="container-blog minipost-bar">
+   {% else %}
+      <div class="container-blog"> 
+    {% endif %}
 {% else %}
   <div class="container-blog container-blog-noimage-top"> 
 {% endif %}
+        {% if page.minipost %}
+           <div class="minipost">Minipost</div>
+            <div class="minipost-triangle"></div>
+            <div class="margin-smallest"></div>
+        {% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.guest %}
         <!-- date & link to guest author -->
@@ -74,12 +83,12 @@
   {% if page.animation %}
     <div class="container-blog-nomargin">
       <figure class="container-blog-nomargin default_image_blog">
-        <img src="{{ page.gif }}" alt="page.title"/> 
+        <img src="{{ page.gif }}" alt="{{ page.title }}"/> 
           {% if page.gif2 %}
-          <img src="{{ page.gif2 }}"  alt="page.title"/> 
+          <img src="{{ page.gif2 }}"  alt="{{ page.title }}"/> 
           {% endif %}
           {% if page.gif3 %}
-          <img src="{{ page.gif3 }}"  alt="post.title"/> 
+          <img src="{{ page.gif3 }}"  alt="{{ page.title }}"/> 
           {% endif %}
      </figure>
     </div> 
@@ -112,7 +121,7 @@
 
         <!-- custom button specs -->
          {% if page.buy %}
-            <a href="{{page.buy}}">
+            <a href="{{page.buy}}" target="_blank">
               <div class="button btn-ignore-600 btn-white" target="_blank"> 
                 {{ page.buytext }} 
               </div>

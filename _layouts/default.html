@@ -16,7 +16,11 @@
       <input type="checkbox" id="navbar-checkbox" class="navbar-checkbox">
       <nav class="menu">
         <ul>
-          <li>  Home    </li>
+          {% if paginator.page == 1 %}
+              <li> Home </li>
+          {% else %}
+              <li> <a href="/index.html"> Home   </a> </li>
+          {% endif %}
           <li> <a href="/faq.html">     About   </a> </li>
           <li> <a href="/archive.html"> Archive </a> </li>
           <li> <a href="/2014/11/03/how-to-make-an-animated-infographic.html">   Tutorial </a> </li>
@@ -46,10 +50,19 @@
 {% for post in paginator.posts %}
 <div class="container-blog-outsidemargin margin-large">
 {% if post.image %}
-  <div class="container-blog"> 
+   {% if post.minipost %}
+      <div class="container-blog minipost-bar">
+   {% else %}
+      <div class="container-blog"> 
+    {% endif %}
 {% else %}
   <div class="container-blog container-blog-noimage-top"> 
 {% endif %}
+        {% if post.minipost %}
+            <div class="minipost">Minipost</div>
+            <div class="minipost-triangle"></div>
+            <div class="margin-smallest"></div>
+        {% endif %}
         <h1>{{ post.title }}</h1>
         {% if post.guest %}
         <!-- date & link to guest author -->
@@ -86,12 +99,12 @@
   </div>
 {% if post.image %}
   {% if post.animation %}
-    <div class="container-blog-nomargin">
-      <figure class="container-blog-nomargin default_image_blog">
+      <div class="container-blog-nomargin">
+          <figure class="container-blog-nomargin default_image_blog">
           {% if post.gifcutoff %}
-          <a href="http://tabletopwhale.com{{post.url}}"><img src="{{ post.gifcutoff }}"  alt="post.title"/></a> 
+          <a href="http://tabletopwhale.com{{post.url}}"><img src="{{ post.gifcutoff }}"  alt="{{ post.title }}"/></a> 
           {% else %}
-          <img src="{{ post.gif }}"  alt="post.title"/> 
+           <img src="{{ post.gif }}"  alt="{{ post.title }}"/> 
           {% endif %}
       </figure>
    </div>
@@ -102,14 +115,14 @@
 {% else %}
   <div class="container-blog container-blog-noimage-bottom"> 
 {% endif %}
-        <!-- custom button specs -->
+<!-- custom button specs -->
          {% if post.buy %}
-            <a href="{{post.buy}}">
+            <a href="{{post.buy}}" target="_blank">
               <div class="button btn-ignore-600 btn-white" target="_blank"> 
                 {{ post.buytext }} 
               </div>
             </a>
-            <a href="{{post.buy}}">
+            <a href="{{post.buy}}" target="_blank">
               <div class="button btn-show-600 btn-white"> {{ post.buytext }} </div>
             </a>
           {% endif %}

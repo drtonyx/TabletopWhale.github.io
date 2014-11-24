@@ -56,7 +56,8 @@
       {% when '3' or '23' %}{{ z }}rd
       {% else %}{{ z }}th
       {% endcase %}
-      &ndash; </strong> {{ post.title }} 
+      &ndash; </strong> {% if post.minipost %} <strong> Minipost: </strong> {% endif %}
+        {{ post.title }} 
       </a> </p> 
     {% endfor %}
 </div>
