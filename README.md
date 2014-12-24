@@ -31,7 +31,7 @@
 <!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
 
 ### This is Tabletop Whale
-[Tabletop Whale](tabletopwhale.com) is a science infographic blog that I update every two or three weeks. The website is a responsive, CSS-only Jekyll theme I built from scratch. 
+[Tabletop Whale](http://tabletopwhale.com) is a science infographic blog that I update every two or three weeks. The website is a responsive, CSS-only Jekyll theme I built from scratch. 
 
 ### Copyright Information
 
