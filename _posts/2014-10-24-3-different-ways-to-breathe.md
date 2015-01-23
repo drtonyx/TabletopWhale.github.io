@@ -17,10 +17,10 @@ In other news, I'm getting my new computer this week! It's going to be awesome w
 <li> <h2> Sources </h2></li>
 <li> Freeman, Scott. <u>Biological Science, 4th Edition</u>. San Francisco: Pearson Education Inc., 2011. 
 </li>
-<li> Harrison, Jon. <a href="http://icb.oxfordjournals.org/content/37/1/73.full.pdf">Ventilatory Mechanism and Control in Grasshoppers</a> Amer. Zool., 37:73-81 (1997)
+<li> Harrison, Jon. <a href="http://icb.oxfordjournals.org/content/37/1/73.full.pdf" target="_blank">Ventilatory Mechanism and Control in Grasshoppers</a> Amer. Zool., 37:73-81 (1997)
 </li>
 <li>
-Ritchison, Gary. <a href="http://people.eku.edu/ritchisong/birdrespiration.html">Avian Respiration.</a> Course materials for Ornithology 554/754
+Ritchison, Gary. <a href="http://people.eku.edu/ritchisong/birdrespiration.html" target="_blank">Avian Respiration.</a> Course materials for Ornithology 554/754
 </li> 
 </ul>
 
