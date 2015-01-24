@@ -9,7 +9,7 @@ description: Did anyone else really want to be an astronaut when they were littl
 
 It's January already, which means it's tax season! I dislike filing taxes as much as the next person, but I figured I might as well make the most of it this year. So I made an infographic celebrating one of my favorite tax-funded programs in America - NASA.
 
-I wanted to show what Earth's control panel might look like if it was a spaceship piloted by humans. It's a bit too busy with all the flashing lights, but I was going for a mix between Star Trek and pinball so I'm still pretty happy with how it turned out. All of the data should be scientifically accurate, even if it's moving too fast to read properly.
+I wanted to show what Earth's control panel might look like if it was a spaceship piloted by humans. It's a bit too busy with all the flashing lights, but I was going for a mix between sci-fi and pinball so I'm still pretty happy with how it turned out. All of the data should be scientifically accurate, even if it's moving too fast to read properly.
 
 As a side note, this might be the only infographic I post for a while. I'm working on a pretty extensive non-science art project right now, and it's been taking up a lot of my time. I was also invited to be on the panel of judges for the Malofiej Infographics Summit in Spain, so I'm going to be out of town for a while doing conference things.  But I promise I haven't forgotten about this blog, and I'll be back soon with more science :)
 
