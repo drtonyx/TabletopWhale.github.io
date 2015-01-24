@@ -13,8 +13,6 @@ I wanted to show what Earth's control panel might look like if it was a spaceshi
 
 As a side note, this might be the only infographic I post for a while. I'm working on a pretty extensive non-science art project right now, and it's been taking up a lot of my time. I was also invited to be on the panel of judges for the Malofiej Infographics Summit in Spain, so I'm going to be out of town for a while doing conference things.  But I promise I haven't forgotten about this blog, and I'll be back soon with more science :)
 
-<i><small> Edit: A couple people said that an interactive version would be awesome. I don't really feel like remaking this, but if any of you want to build a web app or Rainmeter theme or whatever, you're welcome to use my design. I can send you the star map file if you email me. Everything else is easily derived from equations or NASA/local weather data. Oh, and I don't care if you make money from your remake, but please credit me somewhere in the design and in the comment code. </small></i>
-
 <ul class="sources"> 
 <li> <h2> Acknowledgements </h2></li>
 <li> A lot of data went into this infographic. Here's where I got all the information: 
