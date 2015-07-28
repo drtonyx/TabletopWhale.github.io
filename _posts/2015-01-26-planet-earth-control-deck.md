@@ -3,6 +3,8 @@ layout: blog
 title: Planet Earth Control Deck
 image: /img/posts/01-23-15.png
 animation: yes
+buy: http://www.artsider.com/works/33844-star-field_prints
+buytext: Get the poster
 gif: /img/posts/01-23-15.gif
 description: Did anyone else really want to be an astronaut when they were little kids?
 ---

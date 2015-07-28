@@ -59,7 +59,7 @@
   <div class="container-blog container-blog-noimage-top"> 
 {% endif %}
         {% if post.minipost %}
-            <div class="minipost">Minipost</div>
+            <div class="minipost">{{post.minipost}}</div>
             <div class="minipost-triangle"></div>
             <div class="margin-smallest"></div>
         {% endif %}
@@ -68,34 +68,40 @@
         <!-- date & link to guest author -->
             {% if post.guestlink %}
                 <div class="date"> 
-                  <time> {{post.date | date: "%B %-d %Y "}} </time> 
+                  <p> {{post.date | date: "%B %-d %Y "}} 
                   &middot; 
-                  <a href="{{post.guestlink}}">
+                  <a href="{{post.guestlink}}" target="_blank">
                     {{post.guest}} 
-                  </a>
+                  </a></p>
                 </div>
             {% else %}
               <div class="date"> 
-                <time> {{post.date | date: "%B %-d %Y "}} </time> 
+                <p> {{post.date | date: "%B %-d %Y "}} 
                 &middot; 
                 <em class="archive-text"> {{post.guest}} </em>
+              </p>
               </div> 
             {% endif %}
         {% else %}
-          <div class="date"> <time> {{post.date | date: "%B %-d %Y" }} </time> </div>
+          <div class="date"> <p> {{post.date | date: "%B %-d %Y" }} </p> </div>
         {% endif %}
         <hr>
-        {% if post.columns %}
+        <div class="margin-small"></div>
+
+        {% if post.mini %}
         <!-- default is 2 column post -->
         <!-- any value in post.columns turns blog into 1 column post -->
         <div class="container-blog-nocolumns">
           {{ post.content }}
+          <div class="margin-small btn-ignore-600"></div>
         </div>
         {% else %}
         <div class="container-blog-columns">
           {{ post.content }}
+          <div class="margin-miniature btn-ignore-600"></div>
         </div>
         {% endif %}
+
   </div>
 {% if post.image %}
   {% if post.animation %}
