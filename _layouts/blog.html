@@ -31,20 +31,15 @@
 <div class="margin-blogtop"></div>
 
 <div class="container-blog-outsidemargin">
-{% if page.image %}
-   {% if page.minipost %}
-      <div class="container-blog minipost-bar">
-   {% else %}
-      <div class="container-blog"> 
-    {% endif %}
+{% if page.wide %}
+          <div class="container-blog-wide"> 
 {% else %}
-  <div class="container-blog container-blog-noimage-top"> 
+  {% if page.image %}
+         <div class="container-blog"> 
+  {% else %}
+    <div class="container-blog container-blog-noimage-top"> 
+  {% endif %}
 {% endif %}
-        {% if page.minipost %}
-           <div class="minipost">Minipost</div>
-            <div class="minipost-triangle"></div>
-            <div class="margin-smallest"></div>
-        {% endif %}
         <h1>{{ page.title }}</h1>
         {% if page.guest %}
         <!-- date & link to guest author -->
@@ -93,13 +88,21 @@
      </figure>
     </div> 
   {% else %}
+    {% if page.wide %}
+       <figure class="container-blog-nomargin-wide default_image_blog"><img src="{{ page.image }}" alt="page.title"/></figure>
+    {% else %}
       <figure class="container-blog-nomargin default_image_blog"><img src="{{ page.image }}" alt="page.title"/></figure>
+    {% endif %}
   {% endif %}
 {% endif %}
-{% if page.image %}
-  <div class="container-blog"> 
+{% if page.wide %}
+    <div class="container-blog-wide"> 
 {% else %}
-  <div class="container-blog container-blog-noimage-bottom"> 
+    {% if page.image %}
+      <div class="container-blog"> 
+    {% else %}
+      <div class="container-blog container-blog-noimage-bottom"> 
+    {% endif %}
 {% endif %}
         <!-- Prev & Next navigation buttons -->
         {% if page.previous.url or page.next.url %}
@@ -189,13 +192,11 @@
         {% endunless %}
 
         <p class="copyright-notice">
-          <!-- automatic attribute/noncommercial license or custom link -->
-          &copy; This work is licensed under a 
-          {% if page.copyright %}
-            <a href="{{ page.copyrightlink }}" target="_blank">{{ page.copyright }}.</a> 
-          {% else %}
-            <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. </a> 
-          {% endif %}
+        {% if page.nerdcore %}
+           &copy; This work is owned by Nerdcore Medical. Please email <a href="mailto:tabletopwhale@outlook.com">Eleanor Lutz</a> if you want to republish the work in news articles, magazines, books, or other press. If you have other business questions (e.g. carrying the posters in your store) please email <a href="mailto:arunmathewsmd@gmail.com">Arun Mathews</a>. 
+        {% else %}
+            &copy; This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. </a> 
+        {% endif %}
         </p>
   </div>
 </div>
