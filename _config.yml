@@ -1,5 +1,5 @@
 name: Tabletop Whale
-description: New science infographics every Monday and Friday.
+description: Science infographics and animations
 url: http://tabletopwhale.com
 author: Eleanor Lutz
 email: TabletopWhale@gmail.com
@@ -7,4 +7,4 @@ email: TabletopWhale@gmail.com
 timezone: America/Los_Angeles	
 paginate: 3 					
 paginate_path: "/page:num"
-markdown: redcarpet
+markdown: kramdown
