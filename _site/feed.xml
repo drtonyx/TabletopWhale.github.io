@@ -2,17 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tabletop Whale</title>
-		<description>Science infographics and animations</description>		
+		<description>New science infographics every Monday and Friday.</description>		
 		<link>http://tabletopwhale.com</link>
 		<atom:link href="http://tabletopwhale.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Virus trading cards</title>
+				<description>&lt;p&gt;This week I made a set of virus trading cards! Viruses are surprisingly symmetrical, and I love them because they remind me of a biological version of snowflakes. Each trading card shows you the structure of the viral capsid - the protein shell protecting the genetic material inside a virus. &lt;/p&gt;
+
+&lt;p&gt;To make the 3D animations I used &lt;a href=&quot;https://www.cgl.ucsf.edu/chimera/&quot; target=&quot;_blank&quot;&gt;UCSF Chimera&lt;/a&gt;, a free molecular modeling program. When scientists discover a new protein structure they upload it to the worldwide &lt;a href=&quot;http://www.wwpdb.org/&quot; target=&quot;_blank&quot;&gt;Protein Data Bank&lt;/a&gt;. Each entry is assigned a unique ID number, which you can use to call up the structure in programs like Chimera or PyMol. &lt;/p&gt;
+
+&lt;p&gt;I used &lt;a href=&quot;http://www.cgl.ucsf.edu/chimera/data/tutorials/virus-howto/showvirus.html&quot; target=&quot;_blank&quot;&gt; Tom Goddard’s tutorial&lt;/a&gt; to learn how to display viral capsids, and it’s actually a fairly simple process. You can even &lt;a href=&quot;https://www.rbvi.ucsf.edu/Outreach/technotes/ModelGallery/index.html&quot; target=&quot;_blank&quot;&gt; 3D print structures straight from Chimera &lt;/a&gt;, which is awesome and might have to be my next project. &lt;/p&gt;
+
+&lt;ul class=&quot;sources&quot;&gt; 
+&lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;i&gt;Molecular Modeling:&lt;/i&gt;
+Molecular graphics and analyses were performed with the &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/15264254&quot; target=&quot;_blank&quot;&gt;UCSF Chimera package.&lt;/a&gt; Chimera is developed by the Resource for Biocomputing, Visualization, and Informatics at the University of California, San Francisco (supported by NIGMS P41-GM103311). 
+&lt;/li&gt;
+&lt;li&gt;
+&lt;i&gt;Other Sources:&lt;/i&gt; Dengue &lt;a href=&quot;http://www.who.int/immunization/diseases/dengue/en/&quot; target=&quot;_blank&quot;&gt;information&lt;/a&gt; and &lt;a href=&quot;http://www.rcsb.org/pdb/explore/explore.do?structureId=1k4r&quot; target=&quot;_blank&quot;&gt;structure&lt;/a&gt;, HPV &lt;a href=&quot;http://www.who.int/immunization/topics/hpv/en/&quot; target=&quot;_blank&quot;&gt;information&lt;/a&gt; and &lt;a href=&quot;http://www.rcsb.org/pdb/explore/explore.do?structureId=3j6r&quot; target=&quot;_blank&quot;&gt;structure&lt;/a&gt;, Adenovirus &lt;a href=&quot;http://www.phac-aspc.gc.ca/lab-bio/res/psds-ftss/msds3e-eng.php&quot; target=&quot;_blank&quot;&gt;information&lt;/a&gt; and &lt;a href=&quot;http://www.rcsb.org/pdb/explore/explore.do?structureId=3iyn&quot; target=&quot;_blank&quot;&gt;structure&lt;/a&gt;, and PBCV-1 &lt;a href=&quot;http://www.springer.com/cda/content/document/cda_downloaddocument/9783540926764-c1.pdf?SGWID=0-0-45-733305-p173876009&quot; target=&quot;_blank&quot;&gt;information&lt;/a&gt; and &lt;a href=&quot;http://www.rcsb.org/pdb/explore/explore.do?structureId=1m4x&quot; target=&quot;_blank&quot;&gt;structure&lt;/a&gt;.
+&lt;/li&gt;
+&lt;li&gt;
+&lt;i&gt;Fonts:&lt;/i&gt; 
+&lt;a href=&quot;http://www.fontsquirrel.com/fonts/abril-fatface&quot; target=&quot;_blank&quot;&gt;Abril Fatface Regular&lt;/a&gt; by Veronika Burian and Jose Scaglione, &lt;a href=&quot;http://www.fontsquirrel.com/fonts/cousine&quot; target=&quot;_blank&quot;&gt;Cousine Regular&lt;/a&gt; by Ascender Fonts.
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Mon, 11 Apr 2016 00:00:00 +0100</pubDate>
+				<link>http://tabletopwhale.com/2016/04/11/virus-trading-cards.html</link>
+				<guid isPermaLink="true">http://tabletopwhale.com/2016/04/11/virus-trading-cards.html</guid>
+			</item>
+		
+			<item>
 				<title>Here there be robots&amp;#58; A medieval map of Mars</title>
-				<description>&lt;p&gt;It’s hard to believe it’s been over a year since the last time I posted something on this blog! I’ve actually made a lot of infographics in the meantime, but most of them are caught up in production with some of my collaborators. Hopefully I’ll be able to share them soon :)&lt;/p&gt;
+				<description>&lt;p&gt;It&amp;#39;s hard to believe it&amp;#39;s been over a year since the last time I posted something on this blog! I&amp;#39;ve actually made a lot of infographics in the meantime, but most of them are caught up in production with some of my collaborators. Hopefully I&amp;#39;ll be able to share them soon :)&lt;/p&gt;
 
-&lt;p&gt;Recently I’ve been really into old maps made by medieval explorers. I thought it would be fun to use their historical design style to illustrate our current adventures into unexplored territory. So here’s my hand-drawn topographic map of Mars, complete with official landmark names and rover landing sites.&lt;/p&gt;
+&lt;p&gt;Recently I’ve been really into old maps made by medieval explorers. I thought it would be fun to use their historical design style to illustrate our current adventures into unexplored territory. So here’s my hand-drawn topographic map of Mars, complete with official landmark names and rover landing sites. &lt;/p&gt;
 
-&lt;p&gt;To add a little something extra, I included the history of each place name on the map. Martian craters are named after famous scientists (for large craters) or small villages on Earth (small craters). Since the base map is hand-drawn I also added an overlay of actual NASA topographic imagery. This way even if some of my lines are a little off, you can still see what the actual ground looks like underneath.&lt;/p&gt;
+&lt;p&gt;To add a little something extra, I included the history of each place name on the map. Martian craters are named after famous scientists (for large craters) or small villages on Earth (small craters). Since the base map is hand-drawn I also added an overlay of actual NASA topographic imagery. This way even if some of my lines are a little off, you can still see what the actual ground looks like underneath. &lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
@@ -21,45 +49,45 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;i&gt;Fonts&lt;/i&gt;: 
 
-	&lt;a href=&quot;https://www.behance.net/gallery/23468357/Moon-Free-Font&quot; target=&quot;new&quot;&gt;Moon Bold&lt;/a&gt; by Jack Harvatt, &lt;a href=&quot;http://www.dafont.com/chipperfield-and-ba.font&quot; target=&quot;new&quot;&gt;Chipperfield &amp;amp; Bailey&lt;/a&gt; by Paul Lloyd, &lt;a href=&quot;http://www.dafont.com/titania.font&quot; target=&quot;new&quot;&gt;Titania&lt;/a&gt; by Dieter Steffman, &lt;a href=&quot;http://www.oldfonts.com/antiquarian.html&quot; target=&quot;new&quot;&gt;Antiquarian™&lt;/a&gt; and &lt;a href=&quot;http://www.oldfonts.com/antiquarianscribe.html&quot; target=&quot;new&quot;&gt;Antiquarian Scribe™&lt;/a&gt; by Brian Willson, and various elements cannibalized from old maps in the NY Public Library&#39;s Digital Collection (&lt;a href=&quot;http://digitalcollections.nypl.org/items/0356aa70-f15d-0130-25ec-58d385a7b928&quot; target=&quot;new&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;http://digitalcollections.nypl.org/items/510d47e2-6331-a3d9-e040-e00a18064a99&quot; target=&quot;new&quot;&gt;2&lt;/a&gt;, &lt;a href=&quot;http://digitalcollections.nypl.org/items/510d47db-916e-a3d9-e040-e00a18064a99&quot; target=&quot;new&quot;&gt;3&lt;/a&gt;).
+    &lt;a href=&quot;https://www.behance.net/gallery/23468357/Moon-Free-Font&quot; target=&quot;new&quot;&gt;Moon Bold&lt;/a&gt; by Jack Harvatt, &lt;a href=&quot;http://www.dafont.com/chipperfield-and-ba.font&quot; target=&quot;new&quot;&gt;Chipperfield &amp;amp; Bailey&lt;/a&gt; by Paul Lloyd, &lt;a href=&quot;http://www.dafont.com/titania.font&quot; target=&quot;new&quot;&gt;Titania&lt;/a&gt; by Dieter Steffman, &lt;a href=&quot;http://www.oldfonts.com/antiquarian.html&quot; target=&quot;new&quot;&gt;Antiquarian™&lt;/a&gt; and &lt;a href=&quot;http://www.oldfonts.com/antiquarianscribe.html&quot; target=&quot;new&quot;&gt;Antiquarian Scribe™&lt;/a&gt; by Brian Willson, and various elements cannibalized from old maps in the NY Public Library&#39;s Digital Collection (&lt;a href=&quot;http://digitalcollections.nypl.org/items/0356aa70-f15d-0130-25ec-58d385a7b928&quot; target=&quot;new&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;http://digitalcollections.nypl.org/items/510d47e2-6331-a3d9-e040-e00a18064a99&quot; target=&quot;new&quot;&gt;2&lt;/a&gt;, &lt;a href=&quot;http://digitalcollections.nypl.org/items/510d47db-916e-a3d9-e040-e00a18064a99&quot; target=&quot;new&quot;&gt;3&lt;/a&gt;).
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Sat, 27 Feb 2016 00:00:00 -0800</pubDate>
+				<pubDate>Sat, 27 Feb 2016 00:00:00 +0000</pubDate>
 				<link>http://tabletopwhale.com/2016/02/27/here-there-be-robots.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2016/02/27/here-there-be-robots.html</guid>
 			</item>
 		
 			<item>
 				<title>Planet Earth Control Deck</title>
-				<description>&lt;p&gt;It’s January already, which means it’s tax season! I dislike filing taxes as much as the next person, but I figured I might as well make the most of it this year. So I made an infographic celebrating one of my favorite tax-funded programs in America - NASA.&lt;/p&gt;
+				<description>&lt;p&gt;It&amp;#39;s January already, which means it&amp;#39;s tax season! I dislike filing taxes as much as the next person, but I figured I might as well make the most of it this year. So I made an infographic celebrating one of my favorite tax-funded programs in America - NASA.&lt;/p&gt;
 
-&lt;p&gt;I wanted to show what Earth’s control panel might look like if it was a spaceship piloted by humans. It’s a bit too busy with all the flashing lights, but I was going for a mix between sci-fi and pinball so I’m still pretty happy with how it turned out. All of the data should be scientifically accurate, even if it’s moving too fast to read properly.&lt;/p&gt;
+&lt;p&gt;I wanted to show what Earth&amp;#39;s control panel might look like if it was a spaceship piloted by humans. It&amp;#39;s a bit too busy with all the flashing lights, but I was going for a mix between sci-fi and pinball so I&amp;#39;m still pretty happy with how it turned out. All of the data should be scientifically accurate, even if it&amp;#39;s moving too fast to read properly.&lt;/p&gt;
 
-&lt;p&gt;As a side note, this might be the only infographic I post for a while. I’m working on a pretty extensive non-science art project right now, and it’s been taking up a lot of my time. I was also invited to be on the panel of judges for the Malofiej Infographics Summit in Spain, so I’m going to be out of town for a while doing conference things.  But I promise I haven’t forgotten about this blog, and I’ll be back soon with more science :)&lt;/p&gt;
+&lt;p&gt;As a side note, this might be the only infographic I post for a while. I&amp;#39;m working on a pretty extensive non-science art project right now, and it&amp;#39;s been taking up a lot of my time. I was also invited to be on the panel of judges for the Malofiej Infographics Summit in Spain, so I&amp;#39;m going to be out of town for a while doing conference things.  But I promise I haven&amp;#39;t forgotten about this blog, and I&amp;#39;ll be back soon with more science :)&lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Acknowledgements &lt;/h2&gt;&lt;/li&gt;
 &lt;li&gt; A lot of data went into this infographic. Here&#39;s where I got all the information: 
 &lt;/li&gt;&lt;li&gt;
-&lt;a href=&quot;http://www.spacetelescope.org/videos/astro_j/&quot; target=&quot;_blank&quot;&gt;Hubble/ESA moon rotation video&lt;/a&gt;, &lt;a href=&quot;http://visibleearth.nasa.gov/view.php?id=57760&quot; target=&quot;_blank&quot;&gt;NASA Visible Earth world rotation video&lt;/a&gt;, &lt;a href=&quot;http://www.fourmilab.ch/cgi-bin/Solar&quot; target=&quot;_blank&quot;&gt;John Walker Astronomical distance calculator&lt;/a&gt;, &lt;a href=&quot;http://www.wunderground.com/history/airport/KSEA/2014/1/1/MonthlyHistory.html?req_city=NA&amp;amp;req_state=NA&amp;amp;req_statename=NA&quot; target=&quot;_blank&quot;&gt;Weather Underground historical Seattle weather&lt;/a&gt;, &lt;a href=&quot;http://www.amazon.com/Heavens-Poster-Map-Type-Laminated/dp/B002HNP6GQ/ref=sr_1_8?ie=UTF8&amp;amp;qid=1422027289&amp;amp;sr=8-8&amp;amp;keywords=star+map+poster&quot; target=&quot;_blank&quot;&gt;National Geographic star map&lt;/a&gt;, &lt;a href=&quot;https://www.fourmilab.ch/cgi-bin/Yoursky&quot; target=&quot;_blank&quot;&gt;John Walker star location viewer&lt;/a&gt;, &lt;a href=&quot;http://solarsystem.nasa.gov/planets/profile.cfm?Display=Facts&amp;amp;Object=Earth&quot; target=&quot;_blank&quot;&gt;NASA Earth facts&lt;/a&gt;, &lt;a href=&quot;http://solarsystem.nasa.gov/planets/profile.cfm?Display=Facts&amp;amp;Object=Moon&quot; target=&quot;_blank&quot;&gt;NASA moon facts&lt;/a&gt;, &lt;a href=&quot;https://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&amp;amp;Display=Facts&quot; target=&quot;_blank&quot;&gt;NASA sun facts&lt;/a&gt;, &lt;a href=&quot;http://www.census.gov/popclock/&quot; target=&quot;_blank&quot;&gt;US Census Bureau population estimate&lt;/a&gt;, &lt;a href=&quot;http://www.esrf.eu/news/general/Earth-Center-Hotter;jsessionid=570189DE939593E877BE03FE7D2F6332&quot; target=&quot;_blank&quot;&gt;European Synchroton Radiation Facility earth core estimate&lt;/a&gt;, &lt;a href=&quot;http://www.ucsusa.org/nuclear_weapons_and_global_security/solutions/space-weapons/ucs-satellite-database.html#.VMJse0fF8ms&quot; target=&quot;_blank&quot;&gt;USC Satellite Database&lt;/a&gt;, &lt;a href=&quot;http://voyager.jpl.nasa.gov/imagesvideo/imagesbyvoyager.html&quot; target=&quot;_blank&quot;&gt;Voyager photo of Earth&lt;/a&gt;.
+&lt;a href=&quot;http://www.spacetelescope.org/videos/astro_j/&quot; target=&quot;_blank&quot;&gt;Hubble/ESA moon rotation video&lt;/a&gt;, &lt;a href=&quot;http://visibleearth.nasa.gov/view.php?id=57760&quot; target=&quot;_blank&quot;&gt;NASA Visible Earth world rotation video&lt;/a&gt;, &lt;a href=&quot;http://www.fourmilab.ch/cgi-bin/Solar&quot; target=&quot;_blank&quot;&gt;John Walker Astronomical distance calculator&lt;/a&gt;, &lt;a href=&quot;http://www.wunderground.com/history/airport/KSEA/2014/1/1/MonthlyHistory.html?req_city=NA&amp;req_state=NA&amp;req_statename=NA&quot; target=&quot;_blank&quot;&gt;Weather Underground historical Seattle weather&lt;/a&gt;, &lt;a href=&quot;http://www.amazon.com/Heavens-Poster-Map-Type-Laminated/dp/B002HNP6GQ/ref=sr_1_8?ie=UTF8&amp;qid=1422027289&amp;sr=8-8&amp;keywords=star+map+poster&quot; target=&quot;_blank&quot;&gt;National Geographic star map&lt;/a&gt;, &lt;a href=&quot;https://www.fourmilab.ch/cgi-bin/Yoursky&quot; target=&quot;_blank&quot;&gt;John Walker star location viewer&lt;/a&gt;, &lt;a href=&quot;http://solarsystem.nasa.gov/planets/profile.cfm?Display=Facts&amp;Object=Earth&quot; target=&quot;_blank&quot;&gt;NASA Earth facts&lt;/a&gt;, &lt;a href=&quot;http://solarsystem.nasa.gov/planets/profile.cfm?Display=Facts&amp;Object=Moon&quot; target=&quot;_blank&quot;&gt;NASA moon facts&lt;/a&gt;, &lt;a href=&quot;https://solarsystem.nasa.gov/planets/profile.cfm?Object=Sun&amp;Display=Facts&quot; target=&quot;_blank&quot;&gt;NASA sun facts&lt;/a&gt;, &lt;a href=&quot;http://www.census.gov/popclock/&quot; target=&quot;_blank&quot;&gt;US Census Bureau population estimate&lt;/a&gt;, &lt;a href=&quot;http://www.esrf.eu/news/general/Earth-Center-Hotter;jsessionid=570189DE939593E877BE03FE7D2F6332&quot; target=&quot;_blank&quot;&gt;European Synchroton Radiation Facility earth core estimate&lt;/a&gt;, &lt;a href=&quot;http://www.ucsusa.org/nuclear_weapons_and_global_security/solutions/space-weapons/ucs-satellite-database.html#.VMJse0fF8ms&quot; target=&quot;_blank&quot;&gt;USC Satellite Database&lt;/a&gt;, &lt;a href=&quot;http://voyager.jpl.nasa.gov/imagesvideo/imagesbyvoyager.html&quot; target=&quot;_blank&quot;&gt;Voyager photo of Earth&lt;/a&gt;.
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Mon, 26 Jan 2015 00:00:00 -0800</pubDate>
+				<pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
 				<link>http://tabletopwhale.com/2015/01/26/planet-earth-control-deck.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2015/01/26/planet-earth-control-deck.html</guid>
 			</item>
 		
 			<item>
 				<title>How to build a human</title>
-				<description>&lt;p&gt;It’s been a while since I made a science infographic! But hopefully this month’s post is full of enough biology to make up for the wait.&lt;/p&gt;
+				<description>&lt;p&gt;It&amp;#39;s been a while since I made a science infographic! But hopefully this month&amp;#39;s post is full of enough biology to make up for the wait. &lt;/p&gt;
 
-&lt;p&gt;I’ve actually wanted to do an embryogenesis GIF for months, but I couldn’t quite figure out how to make it work. Then I stumbled across &lt;a href=&quot;http://imgur.com/0MNXclx&quot; target=&quot;_blank&quot;&gt;this awesome GIF &lt;/a&gt; on Reddit and got the idea to use a spiraling animation style. (Incidentally, if anyone knows who made that GIF I’d love to know).&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve actually wanted to do an embryogenesis GIF for months, but I couldn&amp;#39;t quite figure out how to make it work. Then I stumbled across &lt;a href=&quot;http://imgur.com/0MNXclx&quot; target=&quot;_blank&quot;&gt;this awesome GIF &lt;/a&gt; on Reddit and got the idea to use a spiraling animation style. (Incidentally, if anyone knows who made that GIF I&amp;#39;d love to know).&lt;/p&gt;
 
-&lt;p&gt;I’m actually really happy with how this turned out. I made this using 44 animations that are 9 frames each. That’s 396 sketches total - probably the most complicated GIF I’ve made so far. I am a little sad that I wasn’t able to show size properly though. For example. the 24 week fetus is about 40 times heavier than a 12 week fetus (but you can’t tell that from this drawing).&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m actually really happy with how this turned out. I made this using 44 animations that are 9 frames each. That&amp;#39;s 396 sketches total - probably the most complicated GIF I&amp;#39;ve made so far. I am a little sad that I wasn&amp;#39;t able to show size properly though. For example. the 24 week fetus is about 40 times heavier than a 12 week fetus (but you can&amp;#39;t tell that from this drawing). &lt;/p&gt;
 
-&lt;p&gt;This is my last post for 2014, so happy holidays everyone! Thanks so much for reading Tabletop Whale and supporting my art :)&lt;/p&gt;
+&lt;p&gt;This is my last post for 2014, so happy holidays everyone! Thanks so much for reading Tabletop Whale and supporting my art :) &lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
@@ -67,46 +95,46 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Tue, 16 Dec 2014 00:00:00 -0800</pubDate>
+				<pubDate>Tue, 16 Dec 2014 00:00:00 +0000</pubDate>
 				<link>http://tabletopwhale.com/2014/12/16/how-to-build-a-human.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/12/16/how-to-build-a-human.html</guid>
 			</item>
 		
 			<item>
 				<title>What you need to build your own computer</title>
-				<description>&lt;p&gt;I’ve been really busy this month working with some awesome science writers! Because of that I haven’t had much time for GIFs, but I did manage to fit in a non-moving infographic for this month’s post.&lt;/p&gt;
+				<description>&lt;p&gt;I&amp;#39;ve been really busy this month working with some awesome science writers! Because of that I haven&amp;#39;t had much time for GIFs, but I did manage to fit in a non-moving infographic for this month&amp;#39;s post.&lt;/p&gt;
 
-&lt;p&gt;This month I also replaced my 5-year old Mac with a custom PC, so I decided to make something with a computer theme. There’s already tons of tutorials on the internet about building computers, so this poster’s more of an illustrated list than an actual set of instructions.&lt;/p&gt;
+&lt;p&gt;This month I also replaced my 5-year old Mac with a custom PC, so I decided to make something with a computer theme. There&amp;#39;s already tons of tutorials on the internet about building computers, so this poster&amp;#39;s more of an illustrated list than an actual set of instructions. &lt;/p&gt;
 
 &lt;p&gt;It was really fun putting the computer together, and my new PC is awesome. I have dual monitors now, and I can finally run all of my design programs at the same time at max speed :)&lt;/p&gt;
 
-&lt;p&gt;But it was harder than I thought to set up a computer - kind of like Ikea furniture on extra hard mode. My boyfriend helped me out a lot, but it still took 5 hours because we forgot the motherboard spacers the first time around.&lt;/p&gt;
+&lt;p&gt;But it was harder than I thought to set up a computer - kind of like Ikea furniture on extra hard mode. My boyfriend helped me out a lot, but it still took 5 hours because we forgot the motherboard spacers the first time around. &lt;/p&gt;
 
-&lt;p&gt;Anyway, thanks for putting up with the slow updates to this blog. This month has been really hectic and I’m looking forward to having the time to animate again. I do have something already in the works, so stay tuned for a science packed GIF for my next post.&lt;/p&gt;
+&lt;p&gt;Anyway, thanks for putting up with the slow updates to this blog. This month has been really hectic and I&amp;#39;m looking forward to having the time to animate again. I do have something already in the works, so stay tuned for a science packed GIF for my next post. &lt;/p&gt;
 </description>
-				<pubDate>Mon, 24 Nov 2014 00:00:00 -0800</pubDate>
+				<pubDate>Mon, 24 Nov 2014 00:00:00 +0000</pubDate>
 				<link>http://tabletopwhale.com/2014/11/24/what-you-need-to-build-your-own-computer.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/11/24/what-you-need-to-build-your-own-computer.html</guid>
 			</item>
 		
 			<item>
 				<title>Tabletop Whale&#39;s guide to making GIFs</title>
-				<description>&lt;p&gt;Recently I’ve been getting a lot of emails asking for a tutorial on how to make animations. So this week I put together a quick explanation for anyone who’s interested. I archived it as a link on the menu bar of my website, so it’ll always be easy to find if you need it.&lt;/p&gt;
+				<description>&lt;p&gt;Recently I&amp;#39;ve been getting a lot of emails asking for a tutorial on how to make animations. So this week I put together a quick explanation for anyone who&amp;#39;s interested. I archived it as a link on the menu bar of my website, so it&amp;#39;ll always be easy to find if you need it. &lt;/p&gt;
 
-&lt;p&gt;This is just a run-through of my own personal animation workflow, so it’s not a definitive guide or anything. There are plenty of other ways to make animations in Photoshop and other programs.&lt;/p&gt;
+&lt;p&gt;This is just a run-through of my own personal animation workflow, so it&amp;#39;s not a definitive guide or anything. There are plenty of other ways to make animations in Photoshop and other programs. &lt;/p&gt;
 
-&lt;p&gt;I’ve never tried making a tutorial about my own work before, so sorry in advance if it’s confusing! Let me know if there’s anything I wrote that didn’t make any sense. I’ll try to fix it if I can (though I probably don’t have room to go into detail about every single Photoshop function I mention).&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve never tried making a tutorial about my own work before, so sorry in advance if it&amp;#39;s confusing! Let me know if there&amp;#39;s anything I wrote that didn&amp;#39;t make any sense. I&amp;#39;ll try to fix it if I can (though I probably don&amp;#39;t have room to go into detail about every single Photoshop function I mention).&lt;/p&gt;
 </description>
-				<pubDate>Mon, 03 Nov 2014 00:00:00 -0800</pubDate>
+				<pubDate>Mon, 03 Nov 2014 00:00:00 +0000</pubDate>
 				<link>http://tabletopwhale.com/2014/11/03/how-to-make-an-animated-infographic.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/11/03/how-to-make-an-animated-infographic.html</guid>
 			</item>
 		
 			<item>
 				<title>An animated guide to breathing</title>
-				<description>&lt;p&gt;As promised, this month’s infographic is packed with actual science. I decided to illustrate how different animals breathe, and I picked three species that I thought were particularly awesome. The topic really lends itself to a short looped GIF so that was an added plus.&lt;/p&gt;
+				<description>&lt;p&gt;As promised, this month&amp;#39;s infographic is packed with actual science. I decided to illustrate how different animals breathe, and I picked three species that I thought were particularly awesome. The topic really lends itself to a short looped GIF so that was an added plus. &lt;/p&gt;
 
-&lt;p&gt;In other news, I’m getting my new computer this week! It’s going to be awesome working on something that can have more than one heavy-duty application running at once. And to make things even better, it’s almost Halloween. Have an awesome weekend guys :)&lt;/p&gt;
+&lt;p&gt;In other news, I&amp;#39;m getting my new computer this week! It&amp;#39;s going to be awesome working on something that can have more than one heavy-duty application running at once. And to make things even better, it&amp;#39;s almost Halloween. Have an awesome weekend guys :)&lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
@@ -118,59 +146,56 @@
 Ritchison, Gary. &lt;a href=&quot;http://people.eku.edu/ritchisong/birdrespiration.html&quot; target=&quot;_blank&quot;&gt;Avian Respiration.&lt;/a&gt; Course materials for Ornithology 554/754
 &lt;/li&gt; 
 &lt;/ul&gt;
-
 </description>
-				<pubDate>Fri, 24 Oct 2014 00:00:00 -0700</pubDate>
+				<pubDate>Fri, 24 Oct 2014 00:00:00 +0100</pubDate>
 				<link>http://tabletopwhale.com/2014/10/24/3-different-ways-to-breathe.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/10/24/3-different-ways-to-breathe.html</guid>
 			</item>
 		
 			<item>
 				<title>Flight videos deconstructed</title>
-				<description>&lt;p&gt;This week’s post isn’t entirely scientific, but I thought I’d upload it anyway since it’s related to animals and patterns in nature.&lt;/p&gt;
+				<description>&lt;p&gt;This week&amp;#39;s post isn&amp;#39;t entirely scientific, but I thought I&amp;#39;d upload it anyway since it&amp;#39;s related to animals and patterns in nature. &lt;/p&gt;
 
-&lt;p&gt;When I worked in an insect lab as an undergrad, I helped out with an experiment about mosquito larvae. As part of the process we used a Matlab program to manually input the larva’s location during thousands of video frames.&lt;/p&gt;
+&lt;p&gt;When I worked in an insect lab as an undergrad, I helped out with an experiment about mosquito larvae. As part of the process we used a Matlab program to manually input the larva&amp;#39;s location during thousands of video frames. &lt;/p&gt;
 
-&lt;p&gt;It was a fun experiment, and I wanted to make something similar from Youtube videos. I found slow-motion videos of five flying species, and mapped out specific points on the wings during one wingbeat. I ended up with 15 frames per wingbeat, and I connected every frame using imaginary curves that went through all of the 15 mapped points.&lt;/p&gt;
+&lt;p&gt;It was a fun experiment, and I wanted to make something similar from Youtube videos. I found slow-motion videos of five flying species, and mapped out specific points on the wings during one wingbeat. I ended up with 15 frames per wingbeat, and I connected every frame using imaginary curves that went through all of the 15 mapped points. &lt;/p&gt;
 
-&lt;p&gt;Of course, 15 frames isn’t nearly enough for any kind of factual conclusion, so this week’s post is just an art exercise. But hopefully you can enjoy this as an artistic pattern based on real life :)&lt;/p&gt;
+&lt;p&gt;Of course, 15 frames isn&amp;#39;t nearly enough for any kind of factual conclusion, so this week&amp;#39;s post is just an art exercise. But hopefully you can enjoy this as an artistic pattern based on real life :)&lt;/p&gt;
 
-&lt;p&gt;P.S. My next post will be more grounded in fact, so don’t worry if you weren’t that into this art post.&lt;/p&gt;
+&lt;p&gt;P.S. My next post will be more grounded in fact, so don&amp;#39;t worry if you weren&amp;#39;t that into this art post.&lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
-&lt;li&gt;  &lt;a href=&quot;https://www.youtube.com/watch?v=YTKNZDjSaXQ&quot; target=&quot;_blank&quot;&gt;Bats in Slow Motion 2&lt;/a&gt; by the Cranbrook Institute of Science. &lt;a href=&quot;https://www.youtube.com/watch?v=Q-7k2HNJpXA&quot; target=&quot;_blank&quot;&gt;Life in the Undergrowth&lt;/a&gt; by David Attenborough. &lt;a href=&quot;https://www.youtube.com/watch?feature=player_embedded&amp;amp;v=GEP-KgJkYnw&quot; target=&quot;_blank&quot;&gt;Geese taking flight&lt;/a&gt; by Edward Tufte. &lt;a href=&quot;http://www.bbc.com/news/science-environment-23143675&quot; target=&quot;_blank&quot;&gt;Hummingbird in slow motion&lt;/a&gt; by Masateru Maeda, Chiba University. &lt;a href=&quot;https://www.youtube.com/watch?v=b2Z0jz7YyOE&quot; target=&quot;_blank&quot;&gt;Moth feeding from a flower&lt;/a&gt; by the Riffell Lab, University of Washington. 
+&lt;li&gt;  &lt;a href=&quot;https://www.youtube.com/watch?v=YTKNZDjSaXQ&quot; target=&quot;_blank&quot;&gt;Bats in Slow Motion 2&lt;/a&gt; by the Cranbrook Institute of Science. &lt;a href=&quot;https://www.youtube.com/watch?v=Q-7k2HNJpXA&quot; target=&quot;_blank&quot;&gt;Life in the Undergrowth&lt;/a&gt; by David Attenborough. &lt;a href=&quot;https://www.youtube.com/watch?feature=player_embedded&amp;v=GEP-KgJkYnw&quot; target=&quot;_blank&quot;&gt;Geese taking flight&lt;/a&gt; by Edward Tufte. &lt;a href=&quot;http://www.bbc.com/news/science-environment-23143675&quot; target=&quot;_blank&quot;&gt;Hummingbird in slow motion&lt;/a&gt; by Masateru Maeda, Chiba University. &lt;a href=&quot;https://www.youtube.com/watch?v=b2Z0jz7YyOE&quot; target=&quot;_blank&quot;&gt;Moth feeding from a flower&lt;/a&gt; by the Riffell Lab, University of Washington. 
 &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
-				<pubDate>Mon, 29 Sep 2014 00:00:00 -0700</pubDate>
+				<pubDate>Mon, 29 Sep 2014 00:00:00 +0100</pubDate>
 				<link>http://tabletopwhale.com/2014/09/29/flight-videos-deconstructed.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/09/29/flight-videos-deconstructed.html</guid>
 			</item>
 		
 			<item>
 				<title>An animated chart of 42 North American butterflies</title>
-				<description>&lt;p&gt;Last week’s infographic was pretty science intensive, so this one is a bit more frivolous for a change. I checked out six butterfly field guides from the library and picked out some of the species I thought were the most unique and beautiful.&lt;/p&gt;
+				<description>&lt;p&gt;Last week&amp;#39;s infographic was pretty science intensive, so this one is a bit more frivolous for a change. I checked out six butterfly field guides from the library and picked out some of the species I thought were the most unique and beautiful. &lt;/p&gt;
 
-&lt;p&gt;It’s meant as a chart of decorative species illustrations rather than an educational infographic. So it doesn’t have as much information as my other posts, but I did draw everything as true to life as I could.&lt;/p&gt;
+&lt;p&gt;It&amp;#39;s meant as a chart of decorative species illustrations rather than an educational infographic. So it doesn&amp;#39;t have as much information as my other posts, but I did draw everything as true to life as I could.&lt;/p&gt;
 
 &lt;ul class=&quot;sources&quot;&gt; 
 &lt;li&gt; &lt;h2&gt; Sources &lt;/h2&gt;&lt;/li&gt;
 &lt;li&gt; Brock JP and Kaufman K. 2003 &lt;i&gt;Butterflies of North America&lt;/i&gt; Singapore: Houghton Mifflin Company &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
-				<pubDate>Wed, 27 Aug 2014 00:00:00 -0700</pubDate>
+				<pubDate>Wed, 27 Aug 2014 00:00:00 +0100</pubDate>
 				<link>http://tabletopwhale.com/2014/08/27/42-butterflies-of-north-america.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/08/27/42-butterflies-of-north-america.html</guid>
 			</item>
 		
 			<item>
 				<title>An animated guide to the human body &amp;#58; The muscle edition</title>
-				<description>&lt;p&gt;I love GIFs as an art form, so this month I tried making an infographic GIF. It’s a 25-frame stop motion animation made mostly in Photoshop.&lt;/p&gt;
+				<description>&lt;p&gt;I love GIFs as an art form, so this month I tried making an infographic GIF. It&amp;#39;s a 25-frame stop motion animation made mostly in Photoshop.&lt;/p&gt;
 
-&lt;p&gt;I’ve never made an animation this complex before, and I had a ton of fun with it. I’m definitely planning on more animated infographics in the future. I might even learn After Effects, though I’ll have to see how feasible that is since my computer’s getting kind of old and slow.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve never made an animation this complex before, and I had a ton of fun with it. I&amp;#39;m definitely planning on more animated infographics in the future. I might even learn After Effects, though I&amp;#39;ll have to see how feasible that is since my computer&amp;#39;s getting kind of old and slow. &lt;/p&gt;
 
 &lt;p&gt;As always, critiques and comments are very welcome :)&lt;/p&gt;
 
@@ -179,30 +204,9 @@ Ritchison, Gary. &lt;a href=&quot;http://people.eku.edu/ritchisong/birdrespirati
 &lt;li&gt; The majority of the information used in this post comes from the textbook &lt;i&gt;Biological Science, 4th Edition&lt;/i&gt; by Scott Freeman.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<pubDate>Tue, 12 Aug 2014 00:00:00 -0700</pubDate>
+				<pubDate>Tue, 12 Aug 2014 00:00:00 +0100</pubDate>
 				<link>http://tabletopwhale.com/2014/08/12/a-users-guide-to-muscles.html</link>
 				<guid isPermaLink="true">http://tabletopwhale.com/2014/08/12/a-users-guide-to-muscles.html</guid>
-			</item>
-		
-			<item>
-				<title>A visual compendium of glowing creatures</title>
-				<description>&lt;p&gt;Hi guys! My name is Eleanor and I’m a self-employed artist from Seattle. This blog post is the first installment of what will hopefully be a year-long infographic design project. I’ve always been into biology and design, so I’m taking a year off after college to see if I can combine the two with at least marginal success.&lt;/p&gt;
-
-&lt;p&gt;It’s more of an experiment than anything else, so feel free to leave comments about what works, what doesn’t, and what might be scientifically incorrect despite my best efforts. I spend a lot of time trying to make these infographics accurate (for this post I read a 468 page textbook and used over 200 other sources) but naturally I’m not an expert in every subject I write about.&lt;/p&gt;
-
-&lt;p&gt;Today’s post diagrams a few of the most well studied bioluminescent organisms. Hope you enjoy it, and thanks for stopping by :)&lt;/p&gt;
-
-&lt;div&gt; &lt;img class=&quot;invisible-for-rss-only&quot; src=&quot;/img/posts/07-21-14.png&quot; /&gt; &lt;/div&gt;
-
-&lt;ul class=&quot;sources&quot;&gt;
-&lt;li&gt;&lt;h2&gt;Acknowledgements&lt;/h2&gt;&lt;/li&gt;
-&lt;li&gt; Thank you to bioluminescence researcher &lt;a href=&quot;http://biolum.eemb.ucsb.edu/&quot; target=&quot;_blank&quot;&gt;Steven Haddock&lt;/a&gt; for his help with animal physiology, and to evolutionary biologist &lt;a href=&quot;http://www.zoo.ox.ac.uk/people/view/paps%20montserrat_j.htm&quot; target=&quot;_blank&quot;&gt;Jordi Paps&lt;/a&gt; for his help with phylogeny. &lt;/li&gt;
-&lt;li&gt; The majority of the information used in this chart comes from the textbook &lt;i&gt;Bioluminescence: Chemical Principles and Methods (Revised Edition)&lt;/i&gt; by Osamu Shimomura.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-				<pubDate>Mon, 21 Jul 2014 00:00:00 -0700</pubDate>
-				<link>http://tabletopwhale.com/2014/07/21/a-visual-compendium-of-glowing-creatures.html</link>
-				<guid isPermaLink="true">http://tabletopwhale.com/2014/07/21/a-visual-compendium-of-glowing-creatures.html</guid>
 			</item>
 		
 	</channel>

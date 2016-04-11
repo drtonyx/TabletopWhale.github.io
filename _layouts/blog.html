@@ -47,7 +47,7 @@
                 <div class="date"> 
                   <time> {{page.date | date: "%B %-d %Y "}} </time> 
                   &middot; 
-                  <a href="{{post.guestlink}}">
+                  <a href="{{page.guestlink}}">
                     {{page.guest}} 
                   </a>
                 </div>
@@ -63,8 +63,8 @@
         {% endif %}
         <hr>
         {% if page.columns %}
-        <!-- default is 2 column post -->
-        <!-- any value in page.columns turns blog into 1 column post -->
+        <!-- default is 2 column page -->
+        <!-- any value in page.columns turns blog into 1 column page -->
         <div class="container-blog-nocolumns">
           {{ content | remove : 'Read more <i class="fa fa-angle-double-right"></i>' }}
         </div>
@@ -75,19 +75,66 @@
         {% endif %}
   </div>
 {% if page.image %}
+<!-- START FIX -->
   {% if page.animation %}
-    <div class="container-blog-nomargin">
-      <figure class="container-blog-nomargin default_image_blog">
-        <img src="{{ page.gif }}" alt="{{ page.title }}"/> 
-          {% if page.gif2 %}
-          <img src="{{ page.gif2 }}"  alt="{{ page.title }}"/> 
+      <div class="container-blog-nomargin">
+<!-- start exception for multiple GIF pages -->
+       {% if page.multiples %}
+       <div class="btn-ignore-538">
+        <table>
+              <img src="{{ page.gif }}" class="halfimage" alt="{{ page.title }}"/>
+              {% if page.gif2 %}
+              <img src="{{ page.gif2 }}" class="halfimage" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif3 %}
+              <img src="{{ page.gif3 }}" class="halfimage" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif4 %}
+              <img src="{{ page.gif4 }}" class="halfimage" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif5 %}
+              <img src="{{ page.gif5 }}" class="halfimage" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif6 %}
+              <img src="{{ page.gif6 }}" class="halfimage" alt="{{ page.title }}"/> 
+              {% endif %}
+      </table>
+    </div>
+    <div class="btn-show-538">
+      <table>
+              <img src="{{ page.gif }}" alt="{{ page.title }}"/>
+              {% if page.gif2 %}
+              <img src="{{ page.gif2 }}" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif3 %}
+              <img src="{{ page.gif3 }}" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif4 %}
+              <img src="{{ page.gif4 }}" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif5 %}
+              <img src="{{ page.gif5 }}" alt="{{ page.title }}"/> 
+              {% endif %}
+              {% if page.gif6 %}
+              <img src="{{ page.gif6 }}" alt="{{ page.title }}"/> 
+              {% endif %}
+      </table>
+    </div>
+<!-- end exception for multiple GIF pages -->
+       {% else %}
+        <figure class="container-blog-nomargin default_image_blog">
+          {% if page.gifcutoff %}
+          <a href="http://tabletopwhale.com{{page.url}}"><img src="{{ page.gifcutoff }}"  alt="{{ page.title }}"/></a> 
+          {% else %} 
+              <img src="{{ page.gif }}"  alt="{{ page.title }}"/>
           {% endif %}
-          {% if page.gif3 %}
-          <img src="{{ page.gif3 }}"  alt="{{ page.title }}"/> 
+          </figure>
           {% endif %}
-     </figure>
-    </div> 
+   </div>
   {% else %}
+
+
+<!-- FIX ABOVE -->
     {% if page.wide %}
        <figure class="container-blog-nomargin-wide default_image_blog"><img src="{{ page.image }}" alt="page.title"/></figure>
     {% else %}
@@ -189,7 +236,7 @@
 
         <p class="copyright-notice">
         {% if page.nerdcore %}
-           &copy; This work is owned by Nerdcore Medical. Please email <a href="mailto:tabletopwhale@outlook.com">Eleanor Lutz</a> if you want to republish the work in news articles, magazines, books, or other press. If you have other business questions (e.g. carrying the posters in your store) please email <a href="mailto:arunmathewsmd@gmail.com">Arun Mathews</a>. 
+           &copy; This work is owned by Nerdcore Medical. Please email <a href="mailto:tabletopwhale@outlook.com">Eleanor Lutz</a> if you want to republish the work in news articles, magazines, books, or other press. If you have other business questions (e.g. carrying the pageers in your store) please email <a href="mailto:arunmathewsmd@gmail.com">Arun Mathews</a>. 
         {% else %}
             &copy; This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. </a> 
         {% endif %}

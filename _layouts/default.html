@@ -58,11 +58,6 @@
 {% else %}
   <div class="container-blog container-blog-noimage-top"> 
 {% endif %}
-        {% if post.minipost %}
-            <div class="minipost">{{post.minipost}}</div>
-            <div class="minipost-triangle"></div>
-            <div class="margin-smallest"></div>
-        {% endif %}
         <h1>{{ post.title }}</h1>
         {% if post.guest %}
         <!-- date & link to guest author -->
@@ -101,18 +96,62 @@
           <div class="margin-miniature btn-ignore-600"></div>
         </div>
         {% endif %}
-
   </div>
 {% if post.image %}
   {% if post.animation %}
       <div class="container-blog-nomargin">
-          <figure class="container-blog-nomargin default_image_blog">
+<!-- start exception for multiple GIF posts -->
+       {% if post.multiples %}
+       <div class="btn-ignore-538">
+        <table>
+              <img src="{{ post.gif }}" class="halfimage" alt="{{ post.title }}"/>
+              {% if post.gif2 %}
+              <img src="{{ post.gif2 }}" class="halfimage" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif3 %}
+              <img src="{{ post.gif3 }}" class="halfimage" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif4 %}
+              <img src="{{ post.gif4 }}" class="halfimage" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif5 %}
+              <img src="{{ post.gif5 }}" class="halfimage" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif6 %}
+              <img src="{{ post.gif6 }}" class="halfimage" alt="{{ post.title }}"/> 
+              {% endif %}
+      </table>
+    </div>
+    <div class="btn-show-538">
+      <table>
+              <img src="{{ post.gif }}" alt="{{ post.title }}"/>
+              {% if post.gif2 %}
+              <img src="{{ post.gif2 }}" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif3 %}
+              <img src="{{ post.gif3 }}" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif4 %}
+              <img src="{{ post.gif4 }}" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif5 %}
+              <img src="{{ post.gif5 }}" alt="{{ post.title }}"/> 
+              {% endif %}
+              {% if post.gif6 %}
+              <img src="{{ post.gif6 }}" alt="{{ post.title }}"/> 
+              {% endif %}
+      </table>
+    </div>
+<!-- end exception for multiple GIF posts -->
+       {% else %}
+        <figure class="container-blog-nomargin default_image_blog">
           {% if post.gifcutoff %}
           <a href="http://tabletopwhale.com{{post.url}}"><img src="{{ post.gifcutoff }}"  alt="{{ post.title }}"/></a> 
-          {% else %}
-           <img src="{{ post.gif }}"  alt="{{ post.title }}"/> 
+          {% else %} 
+              <img src="{{ post.gif }}"  alt="{{ post.title }}"/>
           {% endif %}
-      </figure>
+          </figure>
+          {% endif %}
    </div>
   {% else %}
       <figure class="container-blog-nomargin default_image_blog"><img src="{{ post.image }}"  alt="post.title"/></figure>

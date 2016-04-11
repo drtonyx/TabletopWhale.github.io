@@ -151,6 +151,11 @@
 	.sources { padding-bottom: 20px;}
 }
 
+@media (max-width: 538px) {
+	.btn-ignore-538 			{   display: 			none; 			}
+	.btn-show-538				{	display: 			inline-block;	}
+}
+
 @media(max-width: 500px) {
 	.press td {padding: 5px;}
 	.margin-blogtop 	{	height: 40px;}
