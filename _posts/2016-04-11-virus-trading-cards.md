@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: Virus trading cards
-image: /img/posts/12-16-14.png
+image: /img/posts/03-25-16.jpg
 gif: /img/posts/03-25-16.gif
 gif2: /img/posts/03-25-16-2.gif
 gif3: /img/posts/03-25-16-3.gif
