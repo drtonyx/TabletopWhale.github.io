@@ -20,6 +20,11 @@ body {
 	color: #707070;;
 }
 
+.dark-body {
+	background-image: none; 
+	background-color: #1a1a1a;
+}
+
 #header_container {
 	width: 100%;
 	height:	40px;
@@ -341,16 +346,12 @@ blockquote blockquote:before {
 
 .date {	text-transform:	uppercase; 	font-weight: bold; font-size: 16px;}
 
-.date a {
+.date strong {
 	text-transform: none;
 	font-weight: normal;
 	font-size: 15px;
 	font-style: normal;
 }
-
- .date a:hover {
- 	color:#A0A0A0;
- }
 
 .container-blog-columns p, 
 p {	
@@ -386,7 +387,7 @@ hr {
 	margin-bottom: 25px;
 }
 
-a {
+a, .date a {
 	color: #777777;
 	font-weight: 600;
 	text-decoration: none;
@@ -396,9 +397,10 @@ a {
 	-moz-transition: .2s;
 	-webkit-transition:	.2s;
 	transition:	.2s;
+	text-transform: none;
 }
 
-a:hover, a:active {	color:	#606060 ;}
+a:hover, a:active, .date a:hover, .date a:active{color:#A0A0A0; text-decoration: none;}
 
 .sources {
 	color: #919191;
@@ -732,6 +734,13 @@ figure {
 	text-align: 			left;
 }
 
+.title-container-404 {
+	width: 					100%;
+	margin: 				0;
+	margin-top: 			40px;
+	text-align: 			left;
+}
+
 .title {
 	max-width: 			1050px;
 	padding: 			25px;
@@ -750,6 +759,21 @@ figure {
 
 .title-404 {
 	text-align: 		center;
+}
+
+.image-404 {
+	max-width: 600px;
+	padding: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.404 {
+	position: absolute;
+	top: -100px;
 }
 
 .title h1, .title h2 {
@@ -979,8 +1003,7 @@ figure {
 }
 
 .press {
-	line-height: 100%;
-	margin-bottom: 2px;
+	margin-bottom: 0px;
 	text-transform: capitalize;
 }
 
@@ -989,15 +1012,15 @@ figure {
 	font-weight: normal;
 	text-decoration: none;
 	font-style: normal;
+	text-transform: capitalize;
 }
 
 .press2 { 
-	line-height: 100%;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	color: #3c3c3c;
 }
 
-.press a:hover, a:active {	color:	#777777; text-decoration: underline;}
+.press a:hover, .press a:active {	color:	#777777; text-decoration: underline;}
 
 .margin-miniature 	{   margin-bottom: 10px;	}
 .margin-smallest	{	margin-bottom: 15px;	}

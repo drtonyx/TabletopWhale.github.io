@@ -8,6 +8,7 @@
 	.title-container-404, .faq-image-header 		{ 	margin-top: 0px;	}
 	.wordmark 						{ 	opacity: 0.9;	}
 	.title-container-archivepage 	{ margin-top: 50px;}
+	.title-container-404 { margin-top: 0px;}
 	.margin-large		{	margin-bottom: 80px;	}
 	.margin-blogtop 	{	height: 60px;}
 }
@@ -108,6 +109,7 @@
 	.container-blog-nocolumns 	{	margin-bottom: 0;}
 	.title-archive				{ 	background-position: center;}
 	.title-container-archivepage { margin-top: 10px;}
+	.title-container-404 		{ margin-top: 0px;}
 	.margin-top					{ 	margin-top: 20px;}
 	.btn-white					{ 	width: 100%; padding: 0;}
 	.font-icons, .font-icons a	{ 	font-size: 		20px;	}
@@ -142,7 +144,6 @@
 	.container-icons-archive 	{ 	margin-top: 15px;}
 	.footer-container 			{	padding: 20px;}
 	.pagination 				{	height: 150px; }
-	.title-container-404		{ 	padding-top: 60px;}
 	.container1					{	padding: 0;	}
 	.btn-colfit 				{ 	width: 100%; padding: 0px; margin-left: 0px;}
 	.bottom 					{ 	padding-bottom: 30px; padding-top: 25px;}
@@ -174,7 +175,8 @@
 	.container-icons 			{ 	margin-top: 20px;}
 	.blog-width-icons 								{	margin-top: 55px;}
 	.index-notfirstpage 		{ 	margin-top: 55px;}
-	.title-container-404, .faq-image-header 		{ 	margin-top: 40px;	}
+	.title-container-404 {margin-top: 40px;} 
+	.faq-image-header 		{ 	margin-top: 40px;	}
 	.wordmark 					{ 	opacity: 0.9;	}
 	.title-container-archivepage { margin-top: 50px;}
 	.menu ul 					{ opacity: 1;}

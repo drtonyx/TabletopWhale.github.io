@@ -45,11 +45,11 @@
         <!-- date & link to guest author -->
             {% if page.guestlink %}
                 <div class="date"> 
-                  <time> {{page.date | date: "%B %-d %Y "}} </time> 
+                  <p> {{page.date | date: "%B %-d %Y "}} 
                   &middot; 
-                  <a href="{{page.guestlink}}">
+                  <strong>A collaboration with</strong> <a href="{{page.guestlink}}" target="_blank">
                     {{page.guest}} 
-                  </a>
+                  </a></p>
                 </div>
             {% else %}
               <div class="date"> 
@@ -170,6 +170,7 @@
       <div class="container-blog container-blog-noimage-bottom"> 
     {% endif %}
 {% endif %}
+
         <!-- Prev & Next navigation buttons -->
         {% if page.previous.url or page.next.url %}
           {% if page.previous.url and page.next.url %}
@@ -212,6 +213,7 @@
           {% endunless %}
        </div>
 
+
     <div class="margin-normal"><div class="button transparent"></div></div>
         {% unless page.comments %}
         <!-- Disqus comments -->
@@ -253,13 +255,15 @@
           </script>
         {% endunless %}
 
+        <!-- copyright notice with cases for different people -->
         <p class="copyright-notice">
         {% if page.nerdcore %}
-           &copy; This work is owned by Nerdcore Medical. Please email <a href="mailto:tabletopwhale@outlook.com">Eleanor Lutz</a> if you want to republish the work in news articles, magazines, books, or other press. If you have other business questions (e.g. carrying the pageers in your store) please email <a href="mailto:arunmathewsmd@gmail.com">Arun Mathews</a>. 
+           &copy; This work is owned by Nerdcore Medical. Please email <a href="mailto:tabletopwhale@outlook.com">Eleanor Lutz</a> for press questions, or <a href="mailto:arunmathewsmd@gmail.com">Arun Mathews</a> for business inquiries.
         {% else %}
             &copy; This work is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. </a> 
         {% endif %}
-        </p>
+        </p> 
+
   </div>
 </div>
 <div class="margin-5-IEsafe"></div>
